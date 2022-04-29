@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vtoroy"
+    tools:context=".RaaaaaActivity">
+
+    <ImageView
+        android:id="@+id/iv_Humanchoice"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="444dp"
+        app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/tv_Humanchoice"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="597dp"
+        android:text="Human choice"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/tv_Computerchoice"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="381dp"
+        android:text="Computer choice"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/tv_Score"
+        android:layout_width="213dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="181dp"
+        android:text="Score: Human 0 Computer 0"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/b_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="125dp"
+        android:text="Scissors" />
+
+    <Button
+        android:id="@+id/b_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="125dp"
+        android:layout_toStartOf="@+id/b_scissors"
+        android:text="Rock" />
+
+    <Button
+        android:id="@+id/b_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b_scissors"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-106dp"
+        android:layout_marginBottom="124dp"
+        android:text="Paper" />
+
+    <ImageView
+        android:id="@+id/iv_Computerchoice"
+        android:layout_width="210dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="220dp"
+        app:srcCompat="@drawable/paper" />
+
+
+</RelativeLayout>
